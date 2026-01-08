@@ -40,17 +40,5 @@
 # debug information files
 *.dwo
 
-# kaikki bulid -hakemistot missä tahansa
-build/
-**/build/
-**/BUILD/
-**/BUILD-*/
 
-# Qt Creator -hakemistot kaikkialla
-.qtcreator/
-**/.qtcreator/
-
-# Qt Creator user files
-*.user
-*.user.*
 
