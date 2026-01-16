@@ -25,7 +25,7 @@ int game(int maxnum){
     //cout<<"random arvo on [0, " << maxnum <<"]: " << std::rand()<<'\n';
     cout << "Arvaa luku 1-" << maxnum << endl; //tulostaa
 
-    do{
+    do{ //aloittaa silmukan ja tarkistaa lopussa ehdon
         cout << "Anna arvaus: " << endl;
         cin >> arvaus; //lukee arvauksen
         laskuri++; //lisää arvausten määrää
@@ -39,7 +39,7 @@ int game(int maxnum){
         else{
             cout << "liian suuri" << endl;
             }
-        }while (arvaus != etsittavaLuku);
+        }while (arvaus != etsittavaLuku); //toistaa kunnes ehto täyttyy
 
     return laskuri;
 }
